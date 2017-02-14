@@ -1,0 +1,35 @@
+<html>
+    
+    <body>
+        <header>
+           <h1> GF Todo App </h1>
+        </header>
+        <main>
+            <section>
+                <h2> New task: </h2>
+                <form id="form">
+                    <label for="Category">Category: <input type="text" id="category" required></label>
+                    <label for="Title">Title: <input type="text" id="Title" require required></label>
+                    <label for="periorty">periorty: <input type="number" id="periorty" required></label>
+                    <label for="Estimate">Estimate: <input type="number" id="Estimate" required></label>
+                    <input type="submit" onclick="myFunction()" value="add">
+                </form>     
+            </section>
+            <h2>Tasks:</h2>
+            <table id = "Tasks" >
+                <th>
+                    <tr>
+                        <td>Category</td>
+                        <td>Title</td>
+                        <td>periorty</td>
+                        <td>Estimate</td>
+                    </tr>
+                    
+                </th>
+            </table>
+         </main>
+         <script src="task.js"> </script>
+         <script src="task-manage.js"> </script>
+         <script src="script.js"> </script>
+    </body>
+</html>
